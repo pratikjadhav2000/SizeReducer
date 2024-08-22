@@ -22,7 +22,7 @@ Note : The below guide helps to install FFMPEG library faster with already provi
 
 # 3.Running the SizeReducer program
 
-1. Create a new folder anywhere.
+1. Create a new folder where your .mp4 files are located.
 2. Download & Paste the 'SizeReducer.exe' from the repository into the folder newly created. ( Alternatively, you can also download & compile the 'SizeReducer.cpp' program from the repository and create your '.exe' and paste that into folder )
 3. Put your .mp4 video files into the new folder which need to be compressed.
 4. Double click the 'SizeReducer.exe' to run the program.
