@@ -11,6 +11,8 @@ int main()
     // list .mp4 files in list.txt
     system("(for %a in (*.mp4) do @echo %a) > list.txt");
 
+    // make folder to store compressed files from output
+    system("mkdir compressed");
     // open file list.txt to read .mp4 files
     ifstream fin("list.txt");
 
@@ -18,7 +20,7 @@ int main()
     while (getline(fin, fileName))
     {
 
-        string sizeReduceCommandString = "ffmpeg -i \"" + fileName + "\" -vcodec libx264 -crf 30 \"Reduced_" + fileName + "\"";
+        string sizeReduceCommandString = "ffmpeg -i \"" + fileName + "\" -vcodec libx264 -crf 30 \".\\compressed\\" + fileName + "\"";
         char *sizeReduceCommand = (char *)sizeReduceCommandString.data();
         system(sizeReduceCommand);
     }
