@@ -9,10 +9,12 @@ Note : The below guide helps to install FFMPEG library faster with already provi
 # 1. Installing FFMPEG library
 
 1. Download the 'PATH_ffmpeg' folder from the repository.
+  ![image](https://github.com/user-attachments/assets/82301e96-3e3e-43c5-9027-91fdb66e3144)
+
 2. Paste the downloaded folder into C drive.
 ![360148484-6eaafa12-1af0-4d55-bf40-b306d0be40af](https://github.com/user-attachments/assets/bfd708ae-0271-4fde-8d39-9aa789c0eecc)
 
-4. Set path into you system environment variable. Path URL should be match the FFMPEG binaries are location.
+3. Set path into you system environment variable. Path URL should be match the FFMPEG binaries are location.
   ![360144261-977e354a-50ac-4a55-98a8-52d203f9a1f1](https://github.com/user-attachments/assets/7efcd51e-6171-423b-9485-206fb8d43eaa)
 
 
@@ -25,8 +27,7 @@ Note : The below guide helps to install FFMPEG library faster with already provi
 # 3.Running the SizeReducer program
 
 1. Create a new folder anywhere.
-2. Download & Paste the 'SizeReducer.exe' from the repository into the folder newly created.
-3. Paste the .mp4 video files into the new folder which need to be compressed.
+2. Download & Paste the 'SizeReducer.exe' from the repository into the folder newly created. ( Alternatively, you can also download & compile the 'SizeReducer.cpp' program from the repository and create your '.exe' )
 4. Double click the 'SizeReducer.exe' to run the program.
 5. After program completes, press any key to exit.
 6. A compressed file with name starting with 'Reduced_' following the original file name will be created.
