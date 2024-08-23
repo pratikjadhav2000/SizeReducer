@@ -12,7 +12,7 @@ Note : The below guide helps to install FFMPEG library faster with already provi
 2. Paste the downloaded folder into C drive.
    ![360148484-6eaafa12-1af0-4d55-bf40-b306d0be40af](https://github.com/user-attachments/assets/bfd708ae-0271-4fde-8d39-9aa789c0eecc)
 
-3. Set path into you system environment variable. Path URL should match the FFMPEG binaries location.
+3. Set path into your system environment variable. Path URL should match the FFMPEG binaries location.
    ![360144261-977e354a-50ac-4a55-98a8-52d203f9a1f1](https://github.com/user-attachments/assets/7efcd51e-6171-423b-9485-206fb8d43eaa)
 
 # 2.Verifying the FFMPEG installation
